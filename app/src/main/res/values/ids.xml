@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Declarando IDs -->
+    <item name="titulo" type="id">@+id/titulo</item>
+    <item name="nome" type="id">@+id/nome</item>
+    <item name="telefone" type="id">@+id/telefone</item>
+    <item name="email" type="id">@+id/email</item>
+    <item name="emailList" type="id">@+id/emailList</item>
+    <item name="sexo" type="id">@+id/sexo</item>
+    <item name="radioSexo" type="id">@+id/radioSexo</item>
+    <item name="masculino" type="id">@+id/masculino</item>
+    <item name="feminino" type="id">@+id/feminino</item>
+    <item name="spinnerUF" type="id">@+id/uf</item>
+    <item name="btnLimpar" type="id">@+id/btnLimpar</item>
+    <item name="btnSalvar" type="id">@+id/btnSalvar</item>
+</resources>

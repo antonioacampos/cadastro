@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5e1c8">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro"
+        android:textSize="50dp"
+        android:background="#515151"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome completo"
+        android:textSize="35dp"
+        android:padding="10dp"
+        android:background="#515151"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:textSize="35dp"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:background="#515151"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:textSize="35dp"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:background="#515151"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/emailList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingressar na lista de e-mails?"
+        android:textSize="25dp"
+        android:textColor="#515151"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:textSize="35dp"
+        android:textColor="#515151"
+        android:layout_marginTop="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <RadioButton
+            android:id="@+id/masculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:textSize="35dp"
+            android:layout_marginRight="10dp"
+        android:textColor="#000000"/>
+        <RadioButton
+            android:id="@+id/feminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino"
+            android:textSize="35dp"
+            android:textColor="#000000"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/cidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:textSize="35dp"
+        android:padding="10dp"
+        android:background="#515151"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/uf"
+        android:layout_width="match_parent"
+        android:textSize="35dp"
+        android:background="#515151"
+        android:textColor="#FFFFFF"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpar"
+            android:textSize="35dp"
+            android:textColor="#FFFFFF"
+            android:background="#515151"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:textSize="35dp"
+            android:textColor="#FFFFFF"
+            android:background="#515151"/>
+    </LinearLayout>
+
+</LinearLayout>
